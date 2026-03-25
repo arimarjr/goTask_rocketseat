@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 
 import { HeaderComponent } from "./components/components/header/header.component";
 import { MainContentComponent } from "./components/components/main-content/main-content.component";
+import { TaskFormModalComponent } from "./components/components/task-form-modal/task-form-modal.component";
 
 @Component({
   selector: 'app-root',
@@ -10,6 +11,7 @@ import { MainContentComponent } from "./components/components/main-content/main-
     RouterOutlet, 
     HeaderComponent,
     MainContentComponent,
+      TaskFormModalComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
